@@ -1,0 +1,50 @@
+# FitCoach AI — Python Dependencies
+
+
+# Here I list all the libraries that the project needs.
+# I group them by module so it is easy to understand
+# which library belongs to which part of the system.
+
+# Computer Vision
+mediapipe==0.10.33
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+
+# Deep Learning (PyTorch)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Deep Learning (TensorFlow / Keras)
+# Required by src/computer_vision/exercise_classifier.py
+tensorflow>=2.19.0
+
+# Reinforcement Learning
+stable-baselines3>=2.0.0
+gymnasium>=0.29.0
+
+# NLP and LLM
+openai-whisper>=20231117
+pyttsx3>=2.90
+langchain>=0.1.0
+langchain-groq>=0.1.0
+langchain-community>=0.0.20
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+tavily-python>=0.3.0
+
+# Explainability (XAI)
+shap>=0.44.0
+
+# Knowledge Base System
+# (using custom RuleEngine — no external dependency needed)
+
+# Web Application
+streamlit>=1.30.0
+
+# Data and Utilities
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+python-dotenv>=1.0.0
+sqlalchemy>=2.0.0
